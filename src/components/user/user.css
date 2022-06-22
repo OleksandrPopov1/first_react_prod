@@ -1,0 +1,12 @@
+.wrap{
+    display: flex;
+    align-items: center;
+}
+
+.wrap>p{
+    margin-right: 2%;
+}
+
+.wrap>button{
+    height: 50%;
+}
