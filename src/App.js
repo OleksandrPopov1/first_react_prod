@@ -1,11 +1,14 @@
 
 import './App.css';
-import Characters from "./components/characters/Characters";
+import {CharactersStarWars} from "./components_3";
+
+
+
 
 function App() {
     return (
         <div>
-            <Characters/>
+            <CharactersStarWars/>
         </div>
     );
 }

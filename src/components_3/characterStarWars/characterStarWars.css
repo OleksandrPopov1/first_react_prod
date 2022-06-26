@@ -1,0 +1,10 @@
+.characterStarWarsBlock{
+    width: 33.3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.characterStarWarsBlock>h2{
+    width: 60%;
+}
