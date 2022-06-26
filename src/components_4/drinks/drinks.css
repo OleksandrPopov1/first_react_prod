@@ -1,0 +1,47 @@
+.mainDrinksDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drinksBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anotherButton {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 25px;
+    margin: 20px 15px 15px 0;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #444;
+    background-color: #23c2af;
+    box-shadow: 0 4px 6px rgb(35, 72, 194), 0 1px 3px rgb(35, 194, 38);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+
+}
+.anotherButton:focus-visible {
+    border: 1px solid #4c51f9;
+    outline: none;
+}
+.anotherButton:hover {
+    transition: all 0.2s;
+    box-shadow: 0 7px 14px rgba(65, 132, 144, 0.68), 0 3px 6px rgb(204, 21, 21);
+}
+.anotherButton:active {
+    background-color: #e8aa26;
+}
+

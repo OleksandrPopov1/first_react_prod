@@ -1,6 +1,6 @@
 
 import './App.css';
-import {CharactersStarWars} from "./components_3";
+import {Drinks} from "./components_4";
 
 
 
@@ -8,7 +8,7 @@ import {CharactersStarWars} from "./components_3";
 function App() {
     return (
         <div>
-            <CharactersStarWars/>
+            <Drinks/>
         </div>
     );
 }
