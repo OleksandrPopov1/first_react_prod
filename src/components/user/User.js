@@ -1,9 +1,13 @@
-function User({user}){
-    console.log(user)
-    return (
-        <div>
-            <h2>{user.id}</h2>
+import "./user.css";
 
+function User({user, getUserPosts}){
+    return (
+        <div className="userBlock">
+            <h2>{user.id}. {user.name}</h2>
+            <button onClick={() =>{
+                getUserPosts(user.id);
+                document.location.href = "#postUser";
+            }}>Show posts</button>
         </div>
     );
 }
