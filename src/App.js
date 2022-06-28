@@ -16,14 +16,14 @@ function App() {
         <div>
             <div className="userPostsBlock">
                 <h2 id="postUser">Posts User</h2>
-                <ul>{posts.map((post, index) => {
-                    return (
+                <ul>{posts.map((post, index) =>
+                     (
                         <li key={index}>
                             <b>Title:</b> {post.title}.<br/>
                             <b>Post:</b> {post. body}.
                         </li>
-                    );
-                })}</ul>
+                    )
+                )}</ul>
             </div>
             <hr/>
             <Users getUserPosts={getUserPosts}/>
