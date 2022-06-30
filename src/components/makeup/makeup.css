@@ -1,0 +1,14 @@
+.makeupBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 33%;
+
+    margin: 1% 0;
+}
+
+.makeupBlock > img{
+    display: block;
+    width: 200px;
+}
