@@ -1,8 +1,13 @@
 function Details({makeup}){
-    console.log(makeup.id)
+
     return (
         <div>
-            {makeup.id}
+            <p>
+                <b>Description:</b> <br/>
+                {makeup.description}
+            </p>
+            Price: {makeup.price} <br/>
+            <a href={makeup.product_link} target="_blank">Go to buy</a>
         </div>
     );
 }
