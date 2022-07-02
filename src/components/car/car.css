@@ -1,0 +1,12 @@
+.carContainer{
+    display: flex;
+    align-items: center;
+}
+
+.carContainerDescription{
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid red;
+}
+
