@@ -1,0 +1,12 @@
+.postComponent{
+    width: 20%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+}
+
+.postComponent:hover{
+    top: 60%;
+    right: 80%;
+}

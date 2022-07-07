@@ -1,0 +1,4 @@
+.albumsComponent{
+    display: flex;
+    flex-wrap: wrap;
+}

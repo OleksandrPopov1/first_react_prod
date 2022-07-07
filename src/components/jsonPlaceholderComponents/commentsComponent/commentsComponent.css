@@ -1,0 +1,4 @@
+.commentsBlock{
+    display: flex;
+    flex-wrap: wrap;
+}

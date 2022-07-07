@@ -1,0 +1,4 @@
+.todosComponent{
+    display: flex;
+    flex-wrap: wrap;
+}

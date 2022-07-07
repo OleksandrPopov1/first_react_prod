@@ -1,0 +1,9 @@
+.carBlock{
+    box-sizing: border-box;
+    border: 2px solid red;
+    display: block;
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}

@@ -1,0 +1,4 @@
+.carsBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
