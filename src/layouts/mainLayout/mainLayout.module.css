@@ -1,0 +1,17 @@
+.links{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 2% 0;
+}
+
+.links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.links a[class='active']{
+    color: blue;
+    font-weight: 700;
+}
