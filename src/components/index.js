@@ -1,3 +1,5 @@
+export * from './layoutHeader/LayoutHeader';
+
 export * from './posts/Posts';
 export * from './post/Post';
 

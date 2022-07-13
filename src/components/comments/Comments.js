@@ -4,8 +4,10 @@ import {CommentsService} from "../../services";
 import Comment from "../comment/Comment";
 
 class Comments extends Component {
-
-    state = {comments: []};
+    constructor(props) {
+        super(props);
+        this.state = {comments: []};
+    }
 
     componentDidMount() {
         this.commentsService = new CommentsService();

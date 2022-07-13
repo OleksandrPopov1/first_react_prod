@@ -5,7 +5,10 @@ import Post from "../post/Post";
 
 class Posts extends Component {
 
-    state = {posts: []};
+    constructor(props) {
+        super(props);
+        this.state = {posts: []};
+    }
 
     componentDidMount() {
         this.postsService = new PostsService();
