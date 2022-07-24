@@ -4,15 +4,14 @@ import {useEffect} from "react";
 import {Car} from "../car/Car";
 import {carActions} from "../../redux";
 
-function Cars(){
-    
+function Cars (){
     const {cars} = useSelector(state => state.cars);
 
     const dispatch = useDispatch();
-    
+
     useEffect(() => {
-        dispatch(carActions.getAll);
-    },[])
+        dispatch(carActions.getAll())
+    }, [])
 
     return (
         <div>
@@ -22,3 +21,4 @@ function Cars(){
 }
 
 export {Cars};
+
