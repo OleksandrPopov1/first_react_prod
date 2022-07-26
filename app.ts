@@ -1,20 +1,20 @@
 import {IMission, IUser} from "./interfaces";
-import {changeUserAgeType, sumType} from "./types";
+import {changeUserAgeType, showSumType, sumType} from "./types";
 
 const newMission: IMission = {
-    "mission_name": "Starlink-15 (v1.0)",
-    "launch_date_local": "2020-10-24T11:31:00-04:00",
-    "launch_site": {
-        "site_name_long": "Cape Canaveral Air Force Station Space Launch Complex 40"
+    mission_name: "Starlink-15 (v1.0)",
+    launch_date_local: "2020-10-24T11:31:00-04:00",
+    launch_site: {
+        site_name_long: "Cape Canaveral Air Force Station Space Launch Complex 40"
     },
-    "links": {
-        "article_link": null,
-        "video_link": "https://youtu/J442-ti-Dhg"
+    links: {
+        article_link: null,
+        video_link: "https://youtu/J442-ti-Dhg"
     },
-    "rocket": {
-        "rocket_name": "Falcon 9",
-        "first_stage": {
-            "cores": [
+    rocket: {
+        rocket_name: "Falcon 9",
+        first_stage: {
+            cores: [
                 {
                     "flight": 7,
                     "core": {
@@ -24,8 +24,8 @@ const newMission: IMission = {
                 }
             ]
         },
-        "second_stage": {
-            "payloads": [
+        second_stage: {
+            payloads: [
                 {
                     "payload_type": "Satellite",
                     "payload_mass_kg": 15400,
@@ -44,18 +44,18 @@ const user: IUser = {
 
 const newSum: sumType = ((a, b) => a + b);
 
-const showSum = (a: number, b: number): void => {
+const showSum: showSumType = (a, b) => {
     console.log(a + b);
 }
 
 const changeAgeUser: changeUserAgeType = (someUser, inc) => {
-    someUser["age"] += inc;
+    someUser.age += inc;
     return someUser;
 }
 
 
 console.log(newSum(5, 10));
 
-showSum(10,20);
+showSum(10, 20);
 
 console.log(changeAgeUser(user, 2));

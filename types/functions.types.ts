@@ -1,8 +1,13 @@
-type sumType = (a:number, b:number) => number;
+import {IUser} from "../interfaces";
 
-type changeUserAgeType = (user:object, inc:number) => object;
+type sumType = (a: number, b: number) => number;
+
+type showSumType = (a: number, b: number) => void;
+
+type changeUserAgeType = (user: IUser, inc: number) => IUser;
 
 export type {
     sumType,
-    changeUserAgeType
+    changeUserAgeType,
+    showSumType
 };
